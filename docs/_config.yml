@@ -22,7 +22,7 @@ title: Portfolio
 email: felipelfontoura@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Essa página tem o propósito de demonstrar os meus diversos projetos,
-  demonstrar habilidades em várias linguagens e em criação de sites da web.
+  demonstrar habilidades em várias linguagens de programação e em criação de sites da web.
 baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 url: "https://felpsfon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: felpsonfon
