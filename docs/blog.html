@@ -1,0 +1,14 @@
+---
+titulo: Blog
+---
+<h1>Posts Recentes</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>por: {{ post.autor }}</p>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
