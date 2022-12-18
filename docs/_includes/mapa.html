@@ -1,6 +1,6 @@
 <nav>
   {% for item in site.data.mapa %}
-    <a href="{{ item.link }}" {% if {{ page.url | relative_url }} == {{ item.link | relative_url }} %}class="atual"{% endif %}>
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="atual"{% endif %}>
       {{ item.nome }}
     </a>
   {% endfor %}
