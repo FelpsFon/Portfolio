@@ -34,7 +34,6 @@ jobs:
         with:
           source: ./docs
           destination: ./_site
-          baseurl: /Portfolio
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
