@@ -6,7 +6,7 @@ layout: default
   {{ page.date | date_to_string }}
   {% assign autor = site.autores | where: 'apelido', page.autor | first %}
   {% if autor %}
-    - <a href="{{ autor.url }}">{{ autor.nome }}</a>
+    - <a href="{{ autor.url | relative_url }}">{{ autor.nome }}</a>
   {% endif %}
 </p>
 
