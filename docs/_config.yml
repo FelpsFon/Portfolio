@@ -2,6 +2,9 @@ collections:
   autores:
     output: true
 
+url: https://felpsfon.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /Portfolio # the subpath of your site, e.g. /blog
+
 defaults:
   - scope:
       path: ""
