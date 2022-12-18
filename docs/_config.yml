@@ -2,6 +2,7 @@ collections:
   autores:
     output: true
 
+#source: https://felpsfon.github.io/Portfolio
 url: https://felpsfon.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /Portfolio # the subpath of your site, e.g. /blog
 
@@ -25,3 +26,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - github-pages
