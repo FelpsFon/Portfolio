@@ -1,8 +1,8 @@
 - nome: Início
-  link: /
+  link: Portfolio/
 - nome: Sobre mim
-  link: /sobre.html
+  link: Portfolio/sobre.html
 - nome: Blog
-  link: /blog.html
+  link: Portfolio/blog.html
 - nome: Funcionários
-  link: /funcionarios.html
+  link: Portfolio/funcionarios.html
