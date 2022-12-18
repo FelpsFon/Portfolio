@@ -6,7 +6,7 @@ titulo: Funcionários
 <ul>
   {% for autor in site.autores %}
     <li>
-      <h2><a href="{{ autor.url }}">{{ autor.nome }}</a></h2>
+      <h2><a href="{{ autor.url | relative_url }}">{{ autor.nome }}</a></h2>
       <h3>{{ autor.cargo }}</h3>
       <p>{{ autor.content | markdownify }}</p>
     </li>
