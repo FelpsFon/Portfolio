@@ -3,6 +3,8 @@ collections:
     output: true
 
 title: Portfolio
+locale: pt_BR
+url: https://felpsfon.github.io
 baseurl: /Portfolio
 
 defaults:
@@ -22,7 +24,6 @@ defaults:
       layout: "default"
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
   - github-pages
