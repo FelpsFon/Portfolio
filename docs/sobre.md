@@ -1,5 +1,6 @@
 ---
 titulo: Sobre mim
+layout: sobre
 ---
 # Sobre mim
 
