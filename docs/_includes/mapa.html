@@ -1,7 +1,9 @@
-<nav>
-  {% for item in site.data.mapa %}
-    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="atual"{% endif %}>
-      {{ item.nome }}
-    </a>
-  {% endfor %}
-</nav>
+<section class="header">
+  <nav class="mapa">
+    {% for item in site.data.mapa %}
+      <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}class="mapa_atual" {% endif %}>
+        {{ item.nome }}
+      </a>
+    {% endfor %}
+  </nav>
+</section>

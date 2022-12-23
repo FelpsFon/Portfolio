@@ -1,8 +1,8 @@
 - nome: Início
   link: /
-- nome: Sobre mim
-  link: /sobre.html
 - nome: Blog
   link: /blog.html
 - nome: Funcionários
   link: /funcionarios.html
+- nome: Sobre mim
+  link: /sobre.html

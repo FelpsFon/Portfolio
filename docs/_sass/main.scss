@@ -1,3 +1,38 @@
-.atual {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  min-height: 30px;
+  width: 100%;
+  background-image: linear-gradient(rgba(32, 5, 129, 0.99), rgba(0, 0, 0, 0.1));
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.mapa {
+  flex: 1;
+  text-align: left;
+}
+
+.mapa a {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+a.mapa_atual {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
   color: green;
+  text-decoration: none;
+  font-size: 15px;
 }

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "_autores",
+      "path": "[[workspace]]/docs/_autores"
+    },
+    {
+      "title": "_posts",
+      "path": "[[workspace]]/docs/_posts"
+    },
+    {
+      "title": "docs",
+      "path": "[[workspace]]/docs"
+    },
+    {
+      "title": "docs",
+      "path": "[[workspace]]/docs"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": []
+}
